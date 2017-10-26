@@ -1,0 +1,30 @@
+
+h1{
+  text-align: center;
+  font-family: sans-serif;
+  color:white;
+}
+
+h2{
+  text-align: center;
+  color:white;
+}
+
+.profile{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  margin-left:480px;
+}
+
+.button {
+  margin-top: 40px;
+  margin-left: 450px;
+  font-size:20px;
+  color:red;
+}
+
+p{
+  text-align: center;
+  margin-top:25px;
+}

@@ -1,0 +1,11 @@
+#map{
+  width:80%;
+  height:500px;
+  margin-bottom:-200px;
+  margin-left: 130px;
+}
+
+#text{
+  font-size:1.5em;
+  color:red;
+}

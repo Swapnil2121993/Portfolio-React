@@ -1,0 +1,22 @@
+.position{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  margin-top: 300px;
+  margin-left: 250px;
+}
+
+#btn{
+  margin-top:500px;
+  margin-left: -130px;
+}
+
+#ftr{
+  margin-left: -680px;
+  margin-top:-30px;
+}
+
+.contact{
+  margin-left:500px;
+  margin-top: -300px;
+}
