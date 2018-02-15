@@ -1,5 +1,8 @@
 @import "../css/global-variables";
 
+Header can stretch vertically according to content length. The image should be long enought to account for
+this.
+
 .page-title {
 	position: relative;
 	height:368px;
