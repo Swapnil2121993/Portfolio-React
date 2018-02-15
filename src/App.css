@@ -1,1 +1,155 @@
 
+@import "../css/global-variables";
+
+
+.page-title {
+	position: relative;
+	height:368px;
+}
+
+img {
+	position: relative;
+	height:368px;
+	text-align: center;
+	filter:blur(40%);
+}
+#theme-line{
+	font-size: 45px;
+	line-height: 68px;
+}
+#theme-small-line{
+	font-size: 16px;
+	line-height: 24px;
+}
+#theme-word{
+	width:100%;
+	text-align:center;
+}
+#theme-fonts{
+	font-family:archer semi-bold;
+}
+#themewhite{
+	color:@white;
+}
+#themegrey{
+	color:@default-gray;
+}
+#themefont-text{
+	font-family:@text-font-family;
+}
+#themeheaderone{
+		font-size: 22px;
+		line-height: 33px;
+		width:100%;
+}
+#themeheadertwo{
+		font-size: 16px;
+		line-height: 24px;
+		width:100%;
+}
+#themeheaderthree{
+		font-size: 14px;
+		line-height: 21px;
+		width:100%;
+}
+.dark-theme {
+	h1{
+		#theme-fonts;
+		position:absolute;
+		top:86px;
+		#themewhite;
+		#theme-line;
+		#theme-word;
+	}
+}
+.dark-theme {
+	h2{
+		#theme-fonts;
+		position:absolute;
+		top:70px;
+		#themewhite;
+		#theme-small-line;
+		#theme-word;
+  }
+}
+.dark-theme {
+	h3{
+		#themefont-text;
+		position:absolute;
+		top:160px;
+		#themewhite;
+		#theme-word;
+		#theme-small-line;
+	}	
+}
+.light-theme {
+	h1{
+		#theme-fonts;
+		position:absolute;
+		top:86px;
+		color:@primary-red;
+		#theme-word;
+		#theme-line;
+	}
+}
+.light-theme {
+	h2{
+		#theme-fonts;
+		position:absolute;
+		top:70px;
+		#themegrey;
+		#theme-small-line;
+		#theme-word;
+	} 
+}
+.light-theme {
+	h3 {
+		#themefont-text;
+		position:absolute;
+		top:160px;
+		#themegrey;
+		#theme-word;
+		#theme-small-line;
+	}
+}
+@media @small-screen {
+	img{
+		max-width:100%;
+	}
+    .light-theme { 
+    	h1 {
+			top: 64px;
+			#themeheaderone;
+	    }
+	}
+	.light-theme { 
+		h2{
+			#themeheadertwo;
+			top:48px;
+	   }
+	}
+   .light-theme h3 { 
+   	    h3{
+			#themeheaderthree;
+			top:86px;
+	   }
+	}
+   .dark-theme { 
+   	    h1{
+			top: 64px;
+			#themeheaderone;
+	   }
+	}
+    .dark-theme { 
+    	h2{
+			#themeheadertwo;
+			top:48px;
+		}
+	}
+    .dark-theme { 
+    	h3{
+			#themeheaderthree;
+			top:86px;
+	   }
+	}
+}
