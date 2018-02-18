@@ -43,7 +43,7 @@ AppBanner.propTypes = {
 export default DisplayModelsContainer(AppBanner)
 
 
-
+<AppBanner darkTheme={false} appName={'BDSE'} />
 
 
 
